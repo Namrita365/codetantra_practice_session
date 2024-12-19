@@ -1,0 +1,35 @@
+ul{
+    list-style:none;
+    background-color: rgb(28, 227, 234);
+   
+    display: flex;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    padding:20px;
+    color: rgb(33, 39, 200);
+}
+li a:hover{
+    color: crimson;
+    
+}
+body{
+    margin: 0;
+    background-image: url("welcome.png");
+    background-size: cover;
+}
+li:first-child a{
+    border-left: 1px solid white;
+}
+li:last-child a{
+    border-left: 1px solid white;
+    float:right;
+    display: flex;
+    margin-left:850px;
+    margin-right: 0%;
+}

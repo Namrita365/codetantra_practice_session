@@ -1,0 +1,10 @@
+body{
+    background-color: blueviolet;
+    padding:10px;
+    margin-bottom:100px;
+}
+.flexcontainer{
+    display: flex;
+    column-gap: 20px;
+
+}

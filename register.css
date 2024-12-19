@@ -1,0 +1,61 @@
+*{
+margin:0;
+padding:0;
+} 
+h2{
+    text-align: center;
+    color: rgb(14, 21, 212);
+    padding-bottom: 30px;;
+}
+body{
+    background-image: url("blur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+    display: flex;
+    height:100vh;
+    justify-content:center;
+    align-items: center;
+    
+}
+.main{
+    max-width: 210px;
+    width:100%;
+    background: linear-gradient(270deg, rgb(103, 154, 209),rgba(223, 119, 15, 0.889) ); 
+    padding:60px;
+    margin:100px;
+    border-radius: 20px;
+    height: 55vh;
+    box-shadow: 10px 10px 5px rgb(2, 21, 27);
+  
+
+}
+input[placeholder]{
+  padding: 1px;
+    
+
+}
+form .button{
+    height:45px;
+    width: 50%;
+    border: radius 100%;
+    padding:15px 10px 5px 60px;
+    margin-bottom: 50px;
+     
+}
+form .button input{
+    height: 65%;
+    width: 65%;
+    color: black;
+    background: linear-gradient(270deg, rgb(100, 197, 246),rgba(244, 157, 222, 0.889) ); 
+}
+input {
+    width: 200px; /* Set the width of the input field */
+    height: 15px; /* Optional: Set the height of the input field */
+  /* Optional: Add padding for more space inside */
+}
+p{
+    padding-top:0%;
+    margin-top:  -55px;;
+}
+
